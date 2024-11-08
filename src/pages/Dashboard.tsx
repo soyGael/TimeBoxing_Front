@@ -5,9 +5,8 @@ import Sidebar from "../components/Sidebar";
 const Dashboard: React.FC = () => {
   return (
       <>
-      <Sidebar/>
       <Container fluid>
-        <Row className="mx-1">
+        <Row className="mx-5">
           <Col md={1}></Col>
           <Col md={9}>
             <h1 className="my-4">Dashboard de Actividades</h1>
