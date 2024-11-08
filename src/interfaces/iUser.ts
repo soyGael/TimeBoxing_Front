@@ -7,22 +7,3 @@ export default interface IUser {
     end_time: string,
     status: number,
 }
-
-export default interface ITask {
-    id?: number,
-    title: string,
-    priority: string,
-    decrip: string,
-    status_task: boolean,
-}
-
-export default interface ITask {
-    id?: number,
-    title: string,
-    start_time: string,
-    end_time: string,
-    status_task: boolean,
-    date: string,
-    decrip: string,
-}
-
